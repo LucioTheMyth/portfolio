@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;	
+	background: white;
+}
+h6 {color: white;}
+
+.barra {
+	background: #5A118F;
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0;
+}
+
+.barra a {
+	color: white;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #FFFB00;
+	transition: .3s ease-out all;
+}
+
+.barra a:hover {
+	background: #7D00D8;
+	color: white;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor-imagen {
+	height: 100vh;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+main {
+	min-height: 90vh;
+    background-color: #8F02E0;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: white;
+}
+
+main .contenido .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+    border: 20px;
+    border-color: #ffff00;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: gray;
+}
+
+.post {color: white;}
+
+aside {
+	min-width: 30%;
+	margin: 40px 20px 20px 0;
+	height: 100%;
+	background: #5A118F;
+	padding: 20px;
+	border-radius: 3px;
+    position: sticky;
+    top: 17px;
+}
+
+aside .titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+aside .indice a {
+	display: block;
+	margin-bottom: 10px;
+	color: #ffff00;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+    background-color: #5A118F;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+    background-color: #5A118F;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+footer {
+    display: block;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    color: #FFFB00;
+    text-align: center
+}
+h5 {
+    color: #FFFB00;
+    text-align: center
+}
